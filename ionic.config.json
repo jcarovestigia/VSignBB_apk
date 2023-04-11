@@ -1,0 +1,7 @@
+{
+  "name": "VSignCB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "VSignCB",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
