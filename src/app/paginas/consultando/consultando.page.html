@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true" class="contentLogin">
+  <app-header></app-header>
+  <div id="container">
+      <ion-grid  style="padding:0px">
+          <ion-row>
+              <ion-col style="position:relative;;margin:4%">
+                      <img  #ayuda src="{{'home.imagenAyuda2'| translate}}">
+                      <img style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" #leyendo src="{{'home.imagenConsultando'| translate}}">
+                      <img style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" #consultando1 src="../../assets/img/Consultando1.png">
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col>
+                  <strong>{{'home.etiquetas_inteligentes' | translate}}</strong>
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col>
+                  <ion-button  expand="block" class="rounded-buttonLogin" color="primary" (click)="abrirContacto()">
+                      {{'home.contacta' | translate}}
+                  </ion-button>
+              </ion-col>
+          </ion-row>
+
+      </ion-grid>
+
+
+
+  </div>
+
+
+</ion-content>
+<app-footer-light></app-footer-light>

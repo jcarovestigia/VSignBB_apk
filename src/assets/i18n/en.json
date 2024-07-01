@@ -1,0 +1,34 @@
+{
+    "home":{
+        "imagenAyuda": "../../assets/img/ImageAyuda_en.png",
+        "imagenAyuda2": "../../assets/img/ImageAyuda2_en.png",
+        "imagenLogin": "../../assets/img/ImageLogin_en.png",
+        "imagenConsultando": "../../assets/img/ImageConsultando_en.png",
+        "imagenCirculoBase": "../../assets/img/ImageCirculoBase.png",
+        "imagenFalsa": "../../assets/img/ImageFalsa_en.png",
+        "imagenAutentica": "../../assets/img/ImageAutentica_en.png",
+        "etiquetas_inteligentes": "Smart labels",
+        "etiqueta_falsa": "The authenticity of the tag cannot be guarantieed",
+        "contacta": "Contact Us",
+        "info_producto": "Learn more",
+        "contacto": "https://www.sepiia.com"
+    },
+    "producto":{
+        "detalles": "Detail",
+        "documentos": "Documents",
+        "registro": "Record"
+    },
+    "registro":{
+        "certificado1": "and Vestigia Blockchain Solutions, S.L.",
+        "certificado2": "CERTIFY",
+        "certificado3": "That the product identified by the label read is an authentic product manufactured by",
+        "certificado4": "Each label has an internal code protected by an anti-copy system.",
+        "certificado5": "This unique code has been inviolably registered in the Telsius blockchain of the Alastria Consortium, associated with the product indicated in the app.",
+        "certificado6": "The code record hash for this product is: ",
+        "que_es_blockchain": "¿What's a Blockchain?",
+        "explicar_blockchain1": "A Blockchain is a database stored in a large number of computers online. These computers use all their power to prevent anyone from altering the data recorded in the database. The data must follow some rules, they cannot be any. These rules are called smartcontracts. The computers that participate in the blockchain prevent anyone from making changes to the data that do not comply with the established smartcontracts.",
+        "explicar_blockchain2": "There are various networks that use blockchain technology. The best known is Bitcoin, the first blockchain, which was created to house a cryptocurrency, a money transfer system that has proven to be inviolable.",
+        "explicar_blockchain3": "Blockchains have achieved the highest degree of computer security known to date.",
+        "explicar_blockchain4": "This product has been registered on the blockchain and no one, not even the manufacturer itself, can alter this registry."
+    }
+}

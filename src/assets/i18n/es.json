@@ -1,0 +1,36 @@
+{
+    "home":{
+        "imagenAyuda": "../../assets/img/ImageAyuda_es.png",
+        "imagenAyuda2": "../../assets/img/ImageAyuda2_es.png",
+        "imagenLogin": "../../assets/img/ImageLogin_es.png",
+        "imagenConsultando": "../../assets/img/ImageConsultando_es.png",
+        "imagenCirculoBase": "../../assets/img/ImageCirculoBase.png",
+        "imagenFalsa": "../../assets/img/ImageFalsa_es.png",
+        "imagenAutentica": "../../assets/img/ImageAutentica_es.png",
+        "etiquetas_inteligentes": "Etiquetas inteligentes",
+        "etiqueta_falsa": "No podemos garantizar la autenticidad de este producto",
+        "contacta": "Contacta con nosotros",
+        "info_producto": "Saber más",
+        "contacto": "https://www.sepiia.com"
+
+    },
+    "producto":{
+        "detalles": "Detalles",
+        "documentos": "Documentos",
+        "registro": "Registro"
+    },
+    "registro":{
+        "certificado1": "y Vestigia Blockchain Solutions, S.L.",
+        "certificado2": "CERTIFICAN",
+        "certificado3": "Que el producto identificado por la etiqueta leída es un producto auténtico fabricado por",
+        "certificado4": "Cada etiqueta dispone de un código interno protegida por un sistema anticopia.",
+        "certificado5": "Este código único ha quedado registrado de forma inviolable en la blockchain Telsius del Consorcio Alastria, asociado al producto indicado en la app.",
+        "certificado6": "El hash del registro del código de este producto es: ",
+        "que_es_blockchain": "¿Qué es una Blockchain?",
+        "explicar_blockchain1": "Una Blockchain o cadena de bloques es una base de datos almacenada en un gran número de ordenadores en red. Estos ordenadores utilizan toda su potencia para evitar que nadie altere los datos registrados en la base de datos. Los datos deben seguir unas reglas, no pueden ser cualquiera. Estas reglas se llaman smartcontracts. Los ordenadores que participan en la blockchain impiden que nadie haga modificaciones en los datos que no cumplan con los smartcontracts establecidos.",
+        "explicar_blockchain2": "Hay diversas redes que usan la tecnología blockchain. La más conocida es Bitcoin, la primera blockchain, que se creó para albergar una criptomoneda, un sistema de transferencia de dinero que ha demostrado ser inviolable.",
+        "explicar_blockchain3": "Las blockchain han alcanzado el mayor grado de seguridad informática conocido hasta el momento.",
+        "explicar_blockchain4": "Este producto ha sido registrado en blockchain y ya nadie, ni el propio fabricante, puede alterar este registro."
+    }
+
+}

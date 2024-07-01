@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true" class="contentLogin">
+  <app-header></app-header>
+  <div id="container">
+      <ion-grid  style="padding:0px">
+          <ion-row>
+              <ion-col style="position:relative;;margin:4%">
+                      <img  #circulo src="{{'home.imagenCirculoBase'| translate}}">
+                      <img style="max-width:500%;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" #falsa src="{{'home.imagenFalsa'| translate}}">
+                      <img style="max-width:500%;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);" #autentica src="{{'home.imagenAutentica'| translate}}">
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col>
+                  <strong>{{tag.autentico?tag.info.nombre_art:('home.etiqueta_falsa' | translate)}}</strong>
+              </ion-col>
+          </ion-row>
+          <ion-row>
+              <ion-col *ngIf="!tag.autentico">
+                  <ion-button  expand="block" class="rounded-buttonLogin" color="primary" (click)="abrirContacto()">
+                      {{'home.contacta' | translate}}
+                  </ion-button>
+              </ion-col>
+              <ion-col *ngIf="tag.autentico">
+                <ion-button  expand="block" class="rounded-buttonLogin" color="dark" (click)="infoProducto()">
+                    {{'home.info_producto' | translate}}
+                </ion-button>
+            </ion-col>
+        </ion-row>
+
+      </ion-grid>
+
+
+
+  </div>
+
+
+</ion-content>
+<app-footer-light></app-footer-light>

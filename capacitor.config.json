@@ -1,6 +1,7 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "VSignCB",
+	"appId": "io.vestigia.vsign.bb",
+	"appName": "VSignBB",
 	"webDir": "www",
 	"bundledWebRuntime": false
+	
 }

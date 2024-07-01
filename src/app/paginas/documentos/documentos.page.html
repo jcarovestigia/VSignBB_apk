@@ -1,0 +1,27 @@
+
+<ion-content [fullscreen]="true" class="contentApp ion-padding-top ion-padding-bottom">
+
+  <div>
+      <app-menu-tab selectedSegment="documentos"></app-menu-tab>
+
+      <hr class="customHR">
+      
+      <ion-card *ngFor="let documento of documentos" class="rounded-cards" style="border: solid 1px white;border-radius: 0.3rem;">
+            <ion-card-content   [innerHTML]="documento.html"></ion-card-content>
+      </ion-card>
+      <ion-card  style="border-radius: 0.3rem;" *ngIf="links.length>0" class="rounded-cards" style="border: solid 1px white">
+        <ion-card-content>
+          <ion-item lines="none" *ngFor="let link of links">
+            <a style="width:100%" [href]="link.href">
+              <ion-chip style="width:100%;margin:0px">
+              <ion-icon color="dark" name="document-attach-outline"></ion-icon>
+              <ion-label style="display:inline-block;margin-left:1em;text-decoration: none;" color="dark">{{link.titulo}}</ion-label>
+            </ion-chip>
+          </a>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+  </div>
+</ion-content>
+
+<app-footer-dark></app-footer-dark>

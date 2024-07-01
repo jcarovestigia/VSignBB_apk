@@ -1,0 +1,11 @@
+<ion-segment class="menu" (ionChange)="segmentChanged($event)" mode="ios" [(ngModel)]="selectedSegment">
+    <ion-segment-button value="detalles">
+        <ion-label>{{'producto.detalles' | translate}}</ion-label>
+    </ion-segment-button>
+    <ion-segment-button *ngIf="tag.info.documentos_art!=''" value="documentos">
+        <ion-label>{{'producto.documentos' | translate}}</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="registro">
+        <ion-label>{{'producto.registro' | translate}}</ion-label>
+    </ion-segment-button>
+</ion-segment>

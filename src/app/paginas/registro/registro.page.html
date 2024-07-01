@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true" class="contentApp ion-padding-top ion-padding-bottom">
+
+  <div>
+      <app-menu-tab   selectedSegment="registro"></app-menu-tab>
+
+      <hr class="customHR">
+      <ion-card class="rounded-cards" style="border: solid 1px white;border-radius: 0.3rem;">
+        <ion-card-content>
+          <div class="content pantalla fondoBlanco" style="padding: 1em 1em 1em 1em" id="certificado">
+            <h1 style="color:black">{{tag.info.fabricante_art}} {{'registro.certificado1' | translate}}<br><br><strong>{{'registro.certificado2' | translate}}</strong></h1>
+            <p>{{'registro.certificado3' | translate}} {{tag.info.fabricante_art}}.</p>
+            <p>{{'registro.certificado4' | translate}}</p>
+            <p>{{'registro.certificado5' | translate}}</p>
+            <p>{{'registro.certificado6' | translate}}</p>
+            <a href="https://blkexplorer1.telsius.alastria.io/transaction/{{tag.info.transaccion}}">{{tag.info.transaccion}}</a>
+            <p></p>
+            <h3>{{'registro.que_es_blockchain' | translate}}</h3>
+            <p>{{'registro.explicar_blockchain1' | translate}}</p>
+            <p>{{'registro.explicar_blockchain2' | translate}}</p>
+            <p>{{'registro.explicar_blockchain3' | translate}}</p>
+            <p>{{'registro.explicar_blockchain4' | translate}}</p>
+          </div>  
+        </ion-card-content>
+      </ion-card>
+  
+  </div>
+</ion-content>
+
+<app-footer-dark></app-footer-dark>

@@ -1,0 +1,37 @@
+<ion-content [fullscreen]="true" class="contentLogin">
+    <app-header></app-header>
+    <div id="container">
+        <!--<app-visor-doc></app-visor-doc>-->
+        <ion-grid style="padding:0px">
+            <ion-row>
+                <ion-col style="position:relative;margin:4%">
+                        <img  #ayuda src="{{'home.imagenAyuda'| translate}}">
+                        <img style="position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width:200%" #leyendo src="{{'home.imagenLogin'| translate}}">
+                        <img style="position:absolute;top: 50%;left: 50%;transform-origin:0% 0%;max-width:200%" #objetivo1 src="../../assets/img/Objetivo1.png">
+                        <img style="position:absolute;top: 50%;left: 50%;transform-origin:0% 0%;max-width:200%" #objetivo2 src="../../assets/img/Objetivo2.png">
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col>
+                    <strong>{{'home.etiquetas_inteligentes' | translate}}</strong>
+                </ion-col>
+            </ion-row>
+            <ion-buttons slot="end">
+              </ion-buttons>
+                <ion-row>
+                <ion-col>
+                    <ion-button  expand="block" class="rounded-buttonLogin" color="primary" (click)="abrirContacto()">
+                        {{'home.contacta' | translate}}
+                    </ion-button>
+                </ion-col>
+            </ion-row>
+
+        </ion-grid>
+
+      
+
+    </div>
+
+
+</ion-content>
+<app-footer-light></app-footer-light>

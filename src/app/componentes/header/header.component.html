@@ -1,0 +1,18 @@
+<ion-header class="ion-no-border" class="header"  mode ="ios">
+  <ion-grid>
+    <ion-row> 
+      <ion-col>
+        <img src="../../assets/img/Logo_Header.png" id="logoHeader">
+      </ion-col>
+      <ion-col class="ion-text-end">
+         <ion-select class="sinLabel fi fi-{{nombreBandera()}}" (ionChange)="nuevoIdioma($event)" >
+          <ion-select-option value="es">Español</ion-select-option>
+          <ion-select-option value="en">English</ion-select-option>
+         </ion-select>
+        
+      </ion-col>
+      
+    </ion-row>
+  </ion-grid>
+  
+</ion-header>

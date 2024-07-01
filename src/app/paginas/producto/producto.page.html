@@ -1,0 +1,28 @@
+<!--<app-side-menu></app-side-menu>-->
+
+<ion-content [fullscreen]="true" class="contentApp ion-padding-top ion-padding-bottom">
+
+  <div>
+      <app-menu-tab selectedSegment="detalles" ></app-menu-tab>
+
+      <hr class="customHR">
+
+      <ion-card *ngIf="!esHTML" class="rounded-cards" style="border: solid 1px white">
+            <img src="data:image/jpg;base64,{{tag.info.imagen}}" />
+            <ion-card-header>
+              <ion-card-subtitle>{{tag.info.nombre_art}}</ion-card-subtitle>
+            </ion-card-header>
+            <ion-card-content>
+              <p>{{tag.info.descbreve_art}}</p>
+              <p>{{tag.info.descripcion_art}}</p>
+          </ion-card-content>
+      </ion-card>
+      <ion-card *ngIf="esHTML" class="embPage">
+                <ion-card-content style="margin:-3px; padding:0px; background-image: url('assets/img/cargando.gif');background-repeat:no-repeat;background-position: center center;">
+                  <iframe overflow-scroll="true" class='webPage' [src]="pagina" allowfullscreen></iframe>
+                </ion-card-content>
+      </ion-card>
+  </div>
+</ion-content>
+
+<app-footer-dark></app-footer-dark>
